@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="floochart 1"/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 04:32:14 AM"/>
+        <attribute name="created" value="QURNSU47REVTS1RPUC1WUEo4MUkwOzIwMjYtMDEtMDY7MDQ6MTc6MDYgQU07MjY3NA=="/>
+        <attribute name="edited" value="QURNSU47REVTS1RPUC1WUEo4MUkwOzIwMjYtMDEtMDY7MDQ6MzI6MTQgQU07NDsyNzgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="5"/>
+            <assign variable="num2" expression="8"/>
+            <output expression="num1-num2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

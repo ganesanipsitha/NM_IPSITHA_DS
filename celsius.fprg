@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="celsius"/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 09:49:23 AM"/>
+        <attribute name="created" value="QURNSU47REVTS1RPUC1WUEo4MUkwOzIwMjYtMDEtMDY7MDk6MTY6NDQgQU07MjY4MA=="/>
+        <attribute name="edited" value="QURNSU47REVTS1RPUC1WUEo4MUkwOzIwMjYtMDEtMDY7MDk6NDk6MjMgQU07MjsyNzky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="4"/>
+            <assign variable="num2" expression="7"/>
+            <assign variable="num3" expression="4"/>
+            <if expression="num1&gt;=num2 AND num1&gt;=num3">
+                <then>
+                    <output expression="&quot;a is larger&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num2&gt;=num1 AND num2&gt;=num3">
+                        <then>
+                            <output expression="&quot;b is larger&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="num3&gt;=num1 AND num3&gt;=num2">
+                                <then>
+                                    <output expression="&quot;c is larger&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="num1&gt;num2" newline="True"/>
+            <output expression="num2&gt;num3" newline="True"/>
+            <output expression="num1&gt;num3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

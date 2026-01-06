@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sum of even"/>
+        <attribute name="authors" value="ADMIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:33:18 PM"/>
+        <attribute name="created" value="QURNSU47REVTS1RPUC1WUEo4MUkwOzIwMjYtMDEtMDY7MDM6Mjk6MDggUE07MjY5Mw=="/>
+        <attribute name="edited" value="QURNSU47REVTS1RPUC1WUEo4MUkwOzIwMjYtMDEtMDY7MDM6MzM6MTggUE07MjsyNzk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <assign variable="i" expression="2"/>
+            <while expression="i&lt;=100">
+                <assign variable="sum" expression="sum+i"/>
+                <assign variable="i" expression="i+2"/>
+            </while>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
